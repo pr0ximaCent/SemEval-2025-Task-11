@@ -37,3 +37,46 @@ Text-based emotion detection has become increasingly important for a wide range 
 - **Track C: Cross-lingual Emotion Detection**  [Link](https://www.codabench.org/competitions/4892/)  
   Given a labeled training dataset in one language, predict the perceived emotion labels for a new text instance in a different target language.  
   **Objective**: Detect emotions in texts from different languages using a model trained in one language.
+
+
+### **Key Details**
+
+- **Data Sources**: Text snippets in multiple languages (including English and others).  
+- **Evaluation Metric**: Macro F1 Score for multi-label classification (Track A and B), Cross-lingual F1 Score for Track C.  
+- **Dataset**: Training datasets with emotion labels for Tracks A and B. Track C requires participants to adapt to a new language without a provided training dataset.
+  
+For dataset access and participation details, visit the **Participate** page [here](https://github.com/emotion-analysis-project/SemEval2025-Task11/).
+
+## **Repository Structure**
+
+```
+├── Track A/
+│   ├── Figures_(XLM-R)
+│   ├── Notebooks/
+|   |      ├── ML_Models_Pipeline
+|   |      ├── DL_Models_Pipeline
+│   ├── Reports_(XLM-R)
+|   ├── Utilites/
+|   |      ├── Error_Finder.py
+|   |      ├── Prediction_Checker.py
+├── Track B/
+│   ├── Figures_(XLM-R)
+│   ├── Notebooks/
+|   |      ├── ML_Models_Pipeline
+|   |      ├── DL_Models_Pipeline
+│   ├── Reports_(XLM-R)
+|   ├── Utilites/
+|   |      ├── Error_Finder.py
+|   |      ├── Prediction_Checker.py
+├── Track C/
+│   ├── Figures_(BiLSTM+CNN)
+│   ├── Notebooks/
+|   |      ├── ML_Models_Pipeline
+|   |      ├── DL_Models_Pipeline
+│   ├── Reports_(BiLSTM+CNN)
+|   ├── Utilites/
+|   |      ├── Error_Finder.py
+|   |      ├── Prediction_Checker.py
+├── requirements.txt          # Required Python libraries
+├── README.md                 # Project documentation
+```
