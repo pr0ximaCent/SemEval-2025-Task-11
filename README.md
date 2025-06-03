@@ -14,3 +14,26 @@ This repository contains our implementation for **SemEval-2025 Task 11**, focusi
   publisher = "Association for Computational Linguistics"
 }
 ```
+## **Task Overview**
+
+Text-based emotion detection has become increasingly important for a wide range of applications, from sentiment analysis to human-computer interaction. This task challenges participants to classify emotions in text using three distinct tracks:
+
+### **Tracks**
+
+- **Track A: Multi-label Emotion Detection**  [Link](https://www.codabench.org/competitions/3863/)  
+  For a given text snippet, predict the perceived emotion(s) of the speaker from the following categories:  
+  - joy, sadness, fear, anger, surprise, disgust.  
+  In some languages (e.g., English), disgust may not be considered.  
+  **Objective**: Label the text snippet with 1 (emotion present) or 0 (emotion not present) for each emotion.
+
+- **Track B: Emotion Intensity**  [Link](https://www.codabench.org/competitions/4891/)  
+  Given a text snippet and a target emotion, predict the intensity of the emotion.  
+  **Objective**: For each perceived emotion, assign an intensity score from the following ordinal classes:  
+  - 0: No emotion  
+  - 1: Low degree of emotion  
+  - 2: Moderate degree of emotion  
+  - 3: High degree of emotion
+
+- **Track C: Cross-lingual Emotion Detection**  [Link](https://www.codabench.org/competitions/4892/)  
+  Given a labeled training dataset in one language, predict the perceived emotion labels for a new text instance in a different target language.  
+  **Objective**: Detect emotions in texts from different languages using a model trained in one language.
