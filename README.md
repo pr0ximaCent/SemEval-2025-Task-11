@@ -80,3 +80,29 @@ For dataset access and participation details, visit the **Participate** page [he
 ├── requirements.txt          # Required Python libraries
 ├── README.md                 # Project documentation
 ```
+
+## **Methodology**
+
+After publishing the paper, this section will be updated soon with detailed information on the model architecture, data preprocessing techniques, and classification approaches used.
+
+## **Installation**
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RJ-Hossan/SemEval_2025_T11.git
+cd SemEval_2025_T11
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## **Acknowledgments**
+
+We would like to thank the **[SemEval-2025 Task 11 organizers](https://github.com/emotion-analysis-project/SemEval2025-Task11/)** for their efforts in organizing this shared task. We also express our gratitude to the open-source community for tools like **PyTorch**, **Hugging Face Transformers**, and **Scikit-learn**, which have facilitated the development of our solutions.
+
+--- 
+
